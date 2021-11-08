@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/siblamer/.config/nvim/colors'
+let g:netrw_dirhist_5='/home/siblamer/Documents'
+let g:netrw_dirhist_4='/home/siblamer/Infostructure/siblamer.ru'
+let g:netrw_dirhist_3='/home/siblamer/.oh-my-zsh/themes'
+let g:netrw_dirhist_2='/home/siblamer'
+let g:netrw_dirhist_1='/home/siblamer/Infostructure/siblamer.ru'
+let g:netrw_dirhist_0='/home/siblamer/Infostructure/dev.siblamer.ru'
+let g:netrw_dirhist_9='/home/siblamer/.oh-my-zsh/themes'
+let g:netrw_dirhist_8='/home/siblamer/.oh-my-zsh'
+let g:netrw_dirhist_7='/home/siblamer/.oh-my-zsh/plugins'
