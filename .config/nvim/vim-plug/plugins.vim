@@ -36,11 +36,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 "Autocomplete plugin
-"Also do :CocInstall coc-clangd coc-tsserver coc-eslint coc-json coc-prettier coc-css coc-python coc-java 
+"Also do :CocInstall coc-clangd coc-tsserver coc-eslint coc-json coc-prettier coc-css coc-python coc-java coc-lua 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-"Language packs
-Plug 'sheerun/vim-polyglot'
 
 "Debugging
 "I can't actually debug in nvim yet... This is a WIP

@@ -29,6 +29,8 @@ let g:airline#extensions#tabline#formatter = 'default'
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-lua', 'coc-python', 'coc-vetur']
 lua require("siblamer") 
 
+let NERDTreeShowHidden=1
+
 " Siblamer Shortcuts
 nnoremap <leader>w :w!<CR>
 nnoremap <leader>e :q!<CR>
@@ -40,7 +42,8 @@ nnoremap <leader>f :lua require("siblamer").file_browser() <cr>
 nnoremap <leader>z :Telescope current_buffer_fuzzy_find sorting_strategy=ascending prompt_position=top <cr> 
 nnoremap <leader>gs :Telescope git_status <cr> 
 nnoremap <leader>gb :Telescope git_branches <cr> 
-nnoremap <leader>gc :Telescope git_commits <cr> 
+nnoremap <leader>gc :Telescope git_commits <cr>
+nnoremap <leader>gr :GoRun main.go <cr>
 " Nerdtree Shortcuts
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <leader>d :NERDTreeToggle<CR>
