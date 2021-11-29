@@ -28,6 +28,13 @@ Copying Neovim config: `cp -r .config/nvim/ ~/.config/`
 Installing Vim-Plug: `curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 
+Install neovim with appimage: 
+```
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+mv nvim.appimage /usr/bin/nvim
+```
+
 After that you need to run nvim and execute comamnd `:PlugInstall`
 
 ### Installing ZSH config
@@ -39,6 +46,8 @@ Installing ZSH: `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/too
 Installing ZSH PowerLevel theme: `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 
 Cloning my PowerLevel theme configuration: `cp .config/zsh/.p10k.zsh ~/ && cp .config/zsh/.zshrc ~/`
+
+Change shell: `chsh -s $(which zsh)`
 
 ## Contents
 - Vim (NeoVim) config:
@@ -60,6 +69,13 @@ Requires Neovim (>= 0.5)
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim coded in Lua
+
+Requires NPM (>= 14)
+
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+apt install npm
+```
 
 ## About me
 
